@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a PNG file</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload a PNG file</h1>
+        <img class="shrek-img" src="/shrek.shrek" alt="Shrek" />
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/png" required />
+            <button class="btn" type="submit">Upload and Convert</button>
+        </form>
+    </div>
+</body>
+</html>
